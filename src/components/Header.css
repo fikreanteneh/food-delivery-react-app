@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .head{
+    border-bottom: 1.5px solid black;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.logo, .navigation{
+    display: inline-block;
+}
+.logo img, .navigation img{
+    width: 3rem;
+    display: inline-block;
+}
+
+.logo p{
+    display: inline-block;
+    text-align: center;
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navigation{
+    align-items: right;
+    width: fit-content;
+    margin-right: 0;
+    float: right;
+}
+.navigation ul{
+    display: inline-block;
+    text-align:right;
+}
+.navigation li{
+    display: inline-block;    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.logout{
+    float: right;
+    width: fit-content;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.logout p:hover{
+    background: lightgray;
+    cursor: default;
+} 

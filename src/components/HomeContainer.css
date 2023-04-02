@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.description, .background{
+    display: inline-block;
+    width: clamp(200px, 100%, 600px);
+    margin: 2rem;
+}
+.bike{
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 3rem;
+    background:orange;  
+    border-radius: 8px;
+    padding: 0.3rem;
+}
+.bike p{
+    font-weight:bold;
+    display: inline-block;
+    font-size: 3rem;
+}
+.description img{
+    display: inline-block;
+    width:3rem;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.para{
+    font-size: 6rem;
+    padding: 0.5 rem;
+    font-weight: bold;
+}
+.para .grap{
+    font-size: 1.25rem;
+    font-weight:100;
+    text-align: justify;
+}
+.description button{
+    font-size: 2rem;
+    background-color: orange;
+    margin-top: 0.2rem;
+    border-radius: 8px;
+    border: 0px;
+    width: 100%;
+}
+.background {
+    margin: 2rem;
+    height: 35rem;
+    background-image: url("../img/heroBg.png");
+}
+.menu{
+    display: inline-block;
+    width: 6.5rem;
+    margin: 1.25rem;
+    text-align: center;
+}
+.menu img{
+    width:6.5rem;
+}
+.menu .mmm{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
